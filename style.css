@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0; 
 }
+body{
+    font-family: "Roboto", sans-serif;
+
+}
 .first-section{
     background-color: #1F2937;
     color: white;
@@ -48,17 +52,18 @@ button {
     font-weight: 900;
     color: white;
 }
-.right-side .content{
-    flex-shrink:0;
+
+.content .right-side{
+    flex-shrink: 0;
     width: 50%;
 }
-img{
+.image{
     display: flex;
+    background-color: gray;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 215px;
 }
-
 
 .second-section{
     padding: 2em 8em;
