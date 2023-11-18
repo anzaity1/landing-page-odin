@@ -82,10 +82,16 @@ button {
     justify-content: center;
     gap: 2px;
     align-items: center;
+    flex-wrap: wrap;
+    margin: 3em 0 6em 0;
 }
 .container{
-    padding: 25px;
-    max-width: 140px;
+    max-width: 200px;
+    display:flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+    text-align: center;
 }
 .box{
     border-radius: 25px;
