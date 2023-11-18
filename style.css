@@ -61,7 +61,7 @@ img{
 
 
 .second-section{
-    padding: 1em 8em;
+    padding: 2em 8em;
 }
 .header1{
     display: flex;
@@ -111,5 +111,27 @@ img{
     align-items: center;
     color: #1F2937;
     padding: 0 40px;
-    
+}
+.last-class{
+    padding: 3em 12em;
+}
+.content-container{
+    background-color: #3882f6;
+    border-radius: 7px;
+    display:flex;
+    padding: 25px;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-content{
+    display: flex;
+    color: white;
+    flex-direction:column;
+}
+.action_btn{
+    font-weight: 900;
+    border: 1px solid white;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
 }
