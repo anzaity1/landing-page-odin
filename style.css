@@ -41,7 +41,7 @@ ul{
     gap: 10px;
     
 }
-button {
+.sign {
     margin-top: 8px;
     width: 125px;
     height: 30px;
@@ -131,19 +131,27 @@ button {
     border-radius: 7px;
     display:flex;
     padding: 25px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .left-content{
     display: flex;
     color: white;
-    flex-direction:column;
+    flex-direction: column;
 }
-.action_btn{
-    font-weight: 900;
+.right-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5em 0 3em; 
+}
+.action_btn {
     border: 1px solid white;
-    width: 100px;
-    height: 25px;
+    padding: 8px 30px;
+    text-align: center;
+    background-color:#3882f6;
+    color: white;
+    font-weight: 900;
     border-radius: 5px;
 }
 
